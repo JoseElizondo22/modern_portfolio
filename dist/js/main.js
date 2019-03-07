@@ -29,3 +29,8 @@ function toggleMenu() {
         ShowMenu = false;
     }
 }
+
+
+document.querySelectorAll(".skillname").forEach(item => item.addEventListener("click", function() {
+    this.firstElementChild.classList.toggle("show");
+}));

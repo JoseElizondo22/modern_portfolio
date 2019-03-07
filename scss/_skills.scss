@@ -1,0 +1,25 @@
+main {
+    padding: 8rem;
+    height: 100%;
+
+    &#skills {
+        overflow: hidden;
+        h1 {
+            margin-top: 10vh;
+        }
+    }
+
+    .skilldetail {
+        visibility: hidden;
+        height: 0px;
+        ul>li {
+            color: #fff;
+        }
+    }
+        .show {
+            visibility: visible;
+            height: 15rem;
+            transition: height 1.5s;
+            overflow: hidden;
+        }
+    }
